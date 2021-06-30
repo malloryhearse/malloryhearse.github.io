@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1, h2 {
+    font-family: Megrim;
+    color: white;
+    font-size: 32px;
+    margin: 0px;
+
+}
+
+h3 {
+    font-family: Work Sans;
+    font-weight: thin 100;
+    color:darkslategray;
+    padding: 0;
+
+}
+
+p {
+    font-family: Work Sans;
+    font-weight: thin 100;
+    color: white;
+    font-size: .75em;
+    padding: 5px;
+}
+
+figure {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    min-width: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+figure img {
+    vertical-align: top;
+
+}
+
+figcaption p{
+    text-align: center;
+    font-family: Work Sans;
+    font-weight: thin 100;
+    color: gray;
+    width: 100%;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 10%;
+    
+}
+
+footer {
+    background-color:rgb(37, 37, 32);
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer {
+    color: white;
+}
+
+
+.heroimage {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9)),  url("../../resources/images/pattern.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heroimage h1 {
+    font-size: 13vw;
+    text-align: center;
+    color:rgb(194, 168, 19)
+
+}
+
+.nav {
+    line-height: 60px;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.brushimage {
+    background: url("../images/hacksaw.jpg");
+    margin: 0px;
+    padding: 0px;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.frameimage {
+    background: url("../images/frames.jpg");
+    margin: 0px;
+    padding: 0px;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.paintimage {
+    background: url("../images/paints.png");
+    margin: 0px;
+    padding: 0px;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    font-family: Megrim;
+    font-size: 32px;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    width: 33.333%;
+    background-color:rgb(37, 37, 32);
+    float: left;
+
+}
+
+li:hover {
+    background-color:rgb(112, 97, 10);
+    
+}
+
+.sectionlabel {
+    text-align: center;
+    font-size: 50px;
+    background-color:rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.sectionimg {
+    height: 150px;
+    padding: 20px;
+    opacity: 0.5;
+
+}
+
+.sectionimg:hover {
+    opacity: 1;
+
+}
+
+.options {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .heroimage {
+        height: 300px;
+    }
+
+    .brushimage {
+        height: 200px;
+    }
+
+    .frameimage {
+        height: 200px;
+    }
+
+    .paintimage {
+        height: 200px;
+    }
+
+    li a {
+        font-size: 1rem;
+        line-height: 60px;
+    }
+
+}
