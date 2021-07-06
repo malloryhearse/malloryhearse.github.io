@@ -108,6 +108,7 @@
   
   .section-box {
     width: 75%;
+    max-width: 800px
     margin: auto;
     margin-top: 30px;
     padding: 15px 15px;
