@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  h1 {
+    font-family: amador, serif;
+  }
+  
+  h2 {
+    font-family: bilo, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 200%;
+  }
+  
+  h3 {
+    font-family: shlop, sans-serif;
+    font-size: 300%;
+    text-shadow: 1px 1px 0px #bbf211;
+  }
+  
+  p {
+    font-family: bilo, sans-serif;
+    font-weight: 200;
+  }
+  
+  footer {
+    color: #bbf211;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+    padding: 10px;
+  }
+  
+  .nav span {
+    color: black;
+    vertical-align: -5%;
+  }
+  
+  li a{
+    font-family: bilo, sans-serif;
+    font-weight: 100;
+    font-style: normal; 
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #bbf211;
+    transition: .2s ease;
+  }
+  
+  li a:hover span {
+    color: #bbf211;
+    transition: .2s ease;
+  }
+  
+  .nav ul li {
+    display: inline-block;
+    width: 33.333%;
+    background-color: black;
+    padding: 15px;
+    float: left;
+  }
+  
+  div.hero {
+    text-align: center;
+    margin: auto;
+    width: 85%;
+    min-width: 500px;
+    background-image: url("./headerbg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+  }
+  
+  .header {
+    font-size: 10vw;
+    width: 100%;
+    margin: auto;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    position: sticky;
+    top: 0px;
+    text-shadow: -2px -2px 0px #f0047f, 2px 2px 0px #01a0c6
+  }
+  
+  .nav ul {
+    background-color: black;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .nav {
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .section-box {
+    width: 75%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px 15px;
+    padding-bottom: 5px;
+    box-shadow: 0 3px 8px 0 #ffc8dd;
+    text-align: center;
+    background-color: #ffc8dd;
+    border-radius: 10px;
+    color: black;
+    opacity: 0.75;
+  }
+  
+  div.topnav {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .topnav a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+  }
+  
+  .topnav a:hover {
+    text-shadow: 0 0 10px #f01586;
+    color: black;
+    transition: 0.2s ease;
+  }
+  
+  .colorbar {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center  
+  }
+  
+  .color1 {
+    width: 59%;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    text-align: left;
+    color:white;
+    padding-top: 75px;
+    padding-left: 5px;
+  }
+  
+  .color2 {
+    width: 24%;
+    height:100px;
+    background-color: white;
+    opacity: .2;
+    display: inline-block;
+    text-align: left;
+    padding-top: 75px;
+    padding-left: 5px;
+  }
+  
+  .color3 {
+    width: 14%;
+    height: 100px;
+    background-color: #bbf211;
+    display: inline-block;
+    text-align: left;
+    padding-top: 75px;
+    padding-left: 5px;
+  }
+  
+  h1.example {
+    font-size: 500%;
+  }
+  
+  div.venn {
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    opacity: 1;
+  }
+  
+  .venn img {
+    max-width: 100%;
+  }
+  
